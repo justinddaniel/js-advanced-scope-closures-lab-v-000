@@ -5,3 +5,7 @@ function produceDrivingRange (blockRange) {
     else {return `within range by ${blockRange - range}`}
   }
 }
+
+function produceTipCalculator (percentage) {
+  return function (fare) {return fare * percentage}
+}
